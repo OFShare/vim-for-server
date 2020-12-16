@@ -270,7 +270,7 @@ syntax on
 "utf-8是针对Unicode的一种可变长度字符编码. 它可以用来表示Unicode标准中的任何字符
 "编码设定encoding
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
-set termencoding=utf-8　　
+"set termencoding=utf-8　　
 set encoding=utf-8
 
 "显示行号
@@ -350,6 +350,6 @@ func! Run()
   exec "w"
 "  exec "!g++ -Wall -std=c++11 -DAcui % -o %<"
 "  exec "!./%<"
-  exec "!g++ -Xpreprocessor -fopenmp -lomp -Wall -std=c++11 -fno-elide-constructors -fsanitize=address -fno-omit-frame-pointer -g -DAcui % -o a.out"
+  exec "!g++ -Xpreprocessor -fopenmp -Wall -std=c++11 -fno-elide-constructors -fsanitize=address -fno-omit-frame-pointer -g -DAcui % -o a.out"
   exec "!./a.out"
 endfunc
