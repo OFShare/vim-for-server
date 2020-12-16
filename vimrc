@@ -279,14 +279,14 @@ set nu
 set background=dark
 
 "设定tab所等同的空格长度
-set tabstop=4
-set softtabstop=4
+set tabstop=2
+set softtabstop=2
 "设置空格字符代替tab键
 set expandtab
 "把以前使用的tab键也用space字符代替
 %retab!
 "程序中自动缩进所使用的空白长度指示
-set shiftwidth=4
+set shiftwidth=2
 
 "突出显示当前行
 set cursorline
